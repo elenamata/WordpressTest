@@ -1,0 +1,137 @@
+/**
+ * Stylesheet for custom styles.
+ *
+ */
+
+.site .top-bar {
+    background: #333333;
+}
+
+.site .top-bar,
+.site .top-bar a,
+.site .site-branding,
+.site .site-branding .site-title a {
+    color: #fff;
+}
+
+.site .top-bar .social-icons ul li a:after {
+    background: transparent;
+}
+
+.site .top-bar,
+.site .top-bar .social-icons ul li,
+.site .top-bar .menu > li {
+    border-color: #404040;
+}
+
+.site .top-bar .social-icons ul li a:after {
+    color: #afafaf !important;
+    font-size: 22px;
+}
+
+.site .header-middle,
+.site #trendingCollapse {
+    background: #2b2b2b;
+}
+
+.site .secondary-bgcolor {
+    background: #000;
+}
+
+.primary-bgcolor,
+.main-navigation .menu > ul > li.current-menu-item > a,
+.main-navigation .menu > ul > li:hover > a,
+.main-navigation .menu > ul > li:focus > a {
+    background: #E63946;
+}
+
+.post-category-label > .alt-bgcolor:nth-child(2n+1) {
+    background: #e53947;
+}
+
+.post-category-label > .alt-bgcolor:first-child {
+    background: #00BCD4;
+}
+
+.post-category-label > .alt-bgcolor:first-child a,
+.post-category-label > .alt-bgcolor:nth-child(2n+1) a {
+    color: #fff;
+}
+
+.section-block-upper {
+    padding-top: 40px;
+}
+
+@media only screen and (max-width: 991px) {
+    .main-navigation .menu.mobile > ul {
+        padding-top: 57px;
+    }
+
+    .main-navigation .menu ul {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .site #Foo {
+        background: #2b2b2b;
+    }
+}
+
+.site-branding .site-title {
+    margin-bottom: 5px;
+    letter-spacing: 4px;
+}
+
+.site-branding .site-description {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.site .masthead-banner .post-meta span {
+    padding: 0 5px;
+}
+
+.site .section-effect-1 .post-meta,
+.site .section-effect-1 .author-name {
+    font-size: 12px;
+}
+
+.table-align {
+    display: table;
+}
+
+.table-align .table-align-cell {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.featured-section {
+    border-bottom: 1px solid #f1f1f1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.featured-section .featured-wrapper {
+    background: #f1f1f1;
+    width: 97%;
+    width: calc(100% - 10px);
+    height: 76px;
+}
+
+.featured-section .post-image {
+    width: 85px;
+}
+
+.featured-section .small-title {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px auto;
+    padding: 0 10px;
+}
+
+
+.featured-section * {
+    outline: none !important;
+}
